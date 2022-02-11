@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
-
 * {
   box-sizing: border-box;
 }
@@ -12,4 +10,35 @@ body {
   justify-content: center;
   height: 100vh;
   overflow: hidden;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  font-size: 2rem;
+  color: green;
+}
+
+nav ul a {
+  text-decoration: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+.drop-parent {
+  position: relative;
+}
+.drop-parent::after {
+  content: " >";
+  color: inherit;
+}
+.drop-menu {
+  position: absolute;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 1s linear;
+}
+
+.drop-menu ul {
+  flex-direction: column;
 }
