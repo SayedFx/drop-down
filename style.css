@@ -12,33 +12,16 @@ body {
   overflow: hidden;
 }
 
-nav ul {
-  list-style-type: none;
+nav {
   display: flex;
   gap: 20px;
   font-size: 2rem;
   color: green;
 }
 
-nav ul a {
+nav a {
+  display: block;
   text-decoration: inherit;
   font-size: inherit;
   color: inherit;
-}
-.drop-parent {
-  position: relative;
-}
-.drop-parent::after {
-  content: " >";
-  color: inherit;
-}
-.drop-menu {
-  position: absolute;
-  overflow: hidden;
-  max-height: 0;
-  transition: max-height 1s linear;
-}
-
-.drop-menu ul {
-  flex-direction: column;
 }
