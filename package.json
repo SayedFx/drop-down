@@ -1,5 +1,5 @@
 {
-  "name": "drop-down",
+  "name": "compact-drop-down",
   "version": "1.0.0",
   "description": "A very compact dropdown menu implemented in pure js",
   "main": "script.js",
