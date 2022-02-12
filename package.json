@@ -1,0 +1,26 @@
+{
+  "name": "drop-down",
+  "version": "1.0.0",
+  "description": "A very compact dropdown menu implemented in pure js",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SayedFx/drop-down.git"
+  },
+  "keywords": [
+    "drop",
+    "down",
+    "drop-down",
+    "dropdown",
+    "menu"
+  ],
+  "author": "Yousef Sayed <sayed.yousaf@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SayedFx/drop-down/issues"
+  },
+  "homepage": "https://github.com/SayedFx/drop-down#readme"
+}
